@@ -1,0 +1,33 @@
+<div id="div-form">
+    <form [formGroup]="formCalc" (ngSubmit)="calculate()">
+        <mat-form-field appearance="fill">
+            <mat-label>Capital inicial ($)</mat-label>
+            <input matInput formControlName="capital" placeholder="Capital inicial ($)" thousandSeparator=".">
+            <mat-hint>Capital inicial ($)</mat-hint>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Rendimento mensal (%)</mat-label>
+            <input matInput formControlName="yield" placeholder="Rendimento mensal (%)">
+            <mat-hint>Rendimento mensal (%)</mat-hint>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Aporte Mensal ($)</mat-label>
+            <input matInput formControlName="contribution" placeholder="Aporte Mensal ($)">
+            <mat-hint>Aporte Mensal ($)</mat-hint>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Total de meses</mat-label>
+            <input matInput formControlName="months" placeholder="Total de meses">
+            <mat-hint>Total de meses</mat-hint>
+        </mat-form-field>
+
+        <button type="submit">Calcular</button>
+    </form>
+    {{total}}
+</div>
+
+<!-- <app-profit-chart [capital]="formCalc.get('capital').value" [contribution]="formCalc.get('contribution').value" [yield]="formCalc.get('yield').value" [months]="formCalc.get('months').value"></app-profit-chart> -->
+<app-profit-chart [contributions]="" [values]=""></app-profit-chart>

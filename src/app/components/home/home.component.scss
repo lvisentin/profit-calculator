@@ -1,0 +1,25 @@
+#div-form form {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.input-div {
+    .title{
+        margin-bottom: 5px;
+        font-size: 16px;
+        color: #4e4e4e;
+    }
+    input {
+        padding: 8px;
+        border: 1px solid #4e4e4e;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    .subtitle{
+        margin: 0;
+        font-size: 12px;
+        color: #4e4e4e;
+
+    }
+}
