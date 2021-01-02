@@ -6,6 +6,8 @@ If you want to see the project running on live, access: https://calculadora-rent
 
 This project was built using HTML, CSS, Angular & TypeScript.
 
-A example screenshot: 
+Here are some examples: 
 
-<img src="https://raw.githubusercontent.com/lvisentin/profit-calculator/main/demonstration1.png" width="400px">
+<img src="https://raw.githubusercontent.com/lvisentin/profit-calculator/main/demonstration1.png">
+
+<img src="https://raw.githubusercontent.com/lvisentin/profit-calculator/main/demonstration2.png">
