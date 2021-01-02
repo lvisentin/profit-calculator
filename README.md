@@ -1,5 +1,7 @@
 # 💸 ProfitCalculator
 
+<h4> Project status: ✅ Finished </h4>
+
 This is a simple project that I made to practice my math and programming skills.
 
 If you want to see the project running on live, access: https://calculadora-rentabilidade.herokuapp.com/
